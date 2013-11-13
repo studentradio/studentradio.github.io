@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Fred Bradley - sydney.fredbradley.co.uk</h1>
+        <h1>Fred Bradley - <?php echo $_SERVER['HTTP_HOST']; ?></h1>
         <p>Fred Bradley's Gits and Gists</p>
 
 
